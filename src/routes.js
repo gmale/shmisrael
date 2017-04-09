@@ -7,6 +7,9 @@ import Page from "./layouts/Page"
 import PageError from "./layouts/PageError"
 import Homepage from "./layouts/Homepage"
 import ItineraryPage from "./layouts/ItineraryPage"
+import AboutPage from "./layouts/AboutPage"
+import PackagePage from "./layouts/PackagePage"
+import RegisterPage from "./layouts/RegisterPage"
 import Post from "./layouts/Post"
 
 const PageContainer = (props) => (
@@ -16,7 +19,7 @@ const PageContainer = (props) => (
       Page,
       PageError,
       Homepage,
-      ItineraryPage,
+      ItineraryPage, AboutPage, PackagePage, RegisterPage,
       Post,
     }}
   />

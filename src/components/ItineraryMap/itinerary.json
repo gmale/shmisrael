@@ -1,0 +1,422 @@
+[
+  {
+    "date": "Saturday, April 28",
+    "description": "Depart Denver International Airport for Tel Aviv, Israel",
+    "lat": 31.778031,
+    "lng": 35.235355
+  },
+  {
+    "date": "Sunday, April 29",
+    "description": "Arrive at Ben Gurion",
+    "lat": 30.68961993,
+    "lng": 34.29560901
+  },
+  {
+    "date": "Sunday, April 29",
+    "description": "Meet tour guide and drivers",
+    "lat": 31.57285081,
+    "lng": 34.02572412
+  },
+  {
+    "date": "Sunday, April 29",
+    "description": "Drive through Tel Aviv and experience Ancient Jaffa",
+    "lat": 30.99895981,
+    "lng": 34.11822716
+  },
+  {
+    "date": "Sunday, April 29",
+    "description": "Lunch on your own - Mediterranean",
+    "lat": 31.47948718,
+    "lng": 34.26500075
+  },
+  {
+    "date": "Sunday, April 29",
+    "description": "Transfer to the Leonardo Plaza  Hotel on the Mediterranean",
+    "lat": 31.263385,
+    "lng": 34.391582
+  },
+  {
+    "date": "Monday, April 30",
+    "description": "Visit Caesarea by the Sea",
+    "lat": 31.67680752,
+    "lng": 34.29306657
+  },
+  {
+    "date": "Monday, April 30",
+    "description": "Drive through Haifa Tunnel",
+    "lat": 31.14536175,
+    "lng": 34.0475916
+  },
+  {
+    "date": "Monday, April 30",
+    "description": "Kiryat Yam – Visit Tents of Mercy–Messianic Congregation",
+    "lat": 31.85775477,
+    "lng": 34.05082464
+  },
+  {
+    "date": "Monday, April 30",
+    "description": "Lunch on your own",
+    "lat": 31.97337067,
+    "lng": 34.13041995
+  },
+  {
+    "date": "Monday, April 30",
+    "description": "Overlook on Mt. Carmel and the Jezreel Valley",
+    "lat": 32.66223316,
+    "lng": 34.44619299
+  },
+  {
+    "date": "Monday, April 30",
+    "description": "Nazareth – Nazareth Village, Mary’s Well, Mt. Precipice and Ancient Synagogue",
+    "lat": 30.43682634,
+    "lng": 34.00834554
+  },
+  {
+    "date": "Monday, April 30",
+    "description": "Drive to Kibbutz Ma’agan on the Sea of Galilee",
+    "lat": 30.26850695,
+    "lng": 34.25254367
+  },
+  {
+    "date": "Tuesday, May 1",
+    "description": "Boat Ride on the Sea of Galilee",
+    "lat": 32.43826696,
+    "lng": 34.27367024
+  },
+  {
+    "date": "Tuesday, May 1",
+    "description": "Capernaum – Town of Jesus",
+    "lat": 32.74830107,
+    "lng": 34.2178642
+  },
+  {
+    "date": "Tuesday, May 1",
+    "description": "Mt. of Beatitudes",
+    "lat": 31.39746343,
+    "lng": 34.36980719
+  },
+  {
+    "date": "Tuesday, May 1",
+    "description": "Lunch on your own",
+    "lat": 31.01491791,
+    "lng": 34.40546971
+  },
+  {
+    "date": "Tuesday, May 1",
+    "description": "Katzrine – Golan Experience",
+    "lat": 32.05111736,
+    "lng": 34.34259673
+  },
+  {
+    "date": "Tuesday, May 1",
+    "description": "Mt. Ben Tal",
+    "lat": 30.17708461,
+    "lng": 34.24656665
+  },
+  {
+    "date": "Tuesday, May 1",
+    "description": "Golan Heights",
+    "lat": 32.75959265,
+    "lng": 34.29893439
+  },
+  {
+    "date": "Tuesday, May 1",
+    "description": "Baptism in the Jordan River",
+    "lat": 32.81339264,
+    "lng": 34.32256674
+  },
+  {
+    "date": "Tuesday, May 1",
+    "description": "Return to Kibbutz Ma’agan",
+    "lat": 30.51864755,
+    "lng": 34.16995525
+  },
+  {
+    "date": "Wednesday, May 2",
+    "description": "Gideon Springs",
+    "lat": 32.10308998,
+    "lng": 34.01077221
+  },
+  {
+    "date": "Wednesday, May 2",
+    "description": "Beit She’an and Jezreel Valley",
+    "lat": 31.27940905,
+    "lng": 34.21830419
+  },
+  {
+    "date": "Wednesday, May 2",
+    "description": "Drive to Poriya Illit – Visit Tents of Mercy House Church",
+    "lat": 31.88863558,
+    "lng": 34.32090132
+  },
+  {
+    "date": "Wednesday, May 2",
+    "description": "Lunch provided at the SHM Retreat Center in Migdal",
+    "lat": 30.8038531,
+    "lng": 34.39943133
+  },
+  {
+    "date": "Wednesday, May 2",
+    "description": "Ancient city of Magdala",
+    "lat": 30.60382206,
+    "lng": 34.02189563
+  },
+  {
+    "date": "Wednesday, May 2",
+    "description": "Drive up to top of Mt. Arbel for reflection and worship time",
+    "lat": 32.1258292,
+    "lng": 34.18538777
+  },
+  {
+    "date": "Wednesday, May 2",
+    "description": "Back to Kibbutz Ma’agan",
+    "lat": 32.57842426,
+    "lng": 34.00854831
+  },
+  {
+    "date": "Wednesday, May 2",
+    "description": "Optional Evening drive into Tiberias – boardwalk",
+    "lat": 30.74919033,
+    "lng": 34.28625608
+  },
+  {
+    "date": "Thursday, May 3",
+    "description": "Leave Galilee and descend into  the Jordan Valley",
+    "lat": 30.52622647,
+    "lng": 34.28571508
+  },
+  {
+    "date": "Thursday, May 3",
+    "description": "Qumran, site of Dead Sea Scrolls",
+    "lat": 31.99486263,
+    "lng": 34.35913606
+  },
+  {
+    "date": "Thursday, May 3",
+    "description": "Hike to En Gedi Springs",
+    "lat": 32.03793135,
+    "lng": 34.45421765
+  },
+  {
+    "date": "Thursday, May 3",
+    "description": "Swim in the Dead Sea",
+    "lat": 32.40771395,
+    "lng": 34.27751553
+  },
+  {
+    "date": "Thursday, May 3",
+    "description": "Ascent into Jerusalem",
+    "lat": 31.63385229,
+    "lng": 34.16702142
+  },
+  {
+    "date": "Thursday, May 3",
+    "description": "Welcome Home Blessing on  top of the Mount of Olives",
+    "lat": 32.85185163,
+    "lng": 34.34489182
+  },
+  {
+    "date": "Thursday, May 3",
+    "description": "Transfer to \"Dan Jerusalem",
+    "lat": 30.38343821,
+    "lng": 34.1868676
+  },
+  {
+    "date": "Friday, May 4",
+    "description": "Jerusalem/Shabbat begins",
+    "lat": 32.85950547,
+    "lng": 34.47566928
+  },
+  {
+    "date": "Friday, May 4",
+    "description": "Temple Model City",
+    "lat": 30.26957832,
+    "lng": 34.4172619
+  },
+  {
+    "date": "Friday, May 4",
+    "description": "Shrine of the Book",
+    "lat": 30.95392392,
+    "lng": 34.33364364
+  },
+  {
+    "date": "Friday, May 4",
+    "description": "Enter the Old City through the Jaffa Gate",
+    "lat": 31.36528499,
+    "lng": 34.09757022
+  },
+  {
+    "date": "Friday, May 4",
+    "description": "Lunch on your own",
+    "lat": 30.04073538,
+    "lng": 34.21379391
+  },
+  {
+    "date": "Friday, May 4",
+    "description": "Walk through Cardo to City of David – where it all began!",
+    "lat": 31.49874718,
+    "lng": 34.24994382
+  },
+  {
+    "date": "Friday, May 4",
+    "description": "Tunnel tour to Robinson's Arch and Temple steps/Kotel/Wall",
+    "lat": 31.55500069,
+    "lng": 34.07663781
+  },
+  {
+    "date": "Friday, May 4",
+    "description": "Back for Shabbat Dinner",
+    "lat": 32.40989994,
+    "lng": 34.44089468
+  },
+  {
+    "date": "Friday, May 4",
+    "description": "Erev Shabbat Dinner",
+    "lat": 32.86270385,
+    "lng": 34.09606701
+  },
+  {
+    "date": "Saturday, May 5",
+    "description": "Mount of Olives",
+    "lat": 30.44755071,
+    "lng": 34.47356389
+  },
+  {
+    "date": "Saturday, May 5",
+    "description": "Walking Tour of the Old City",
+    "lat": 32.44570551,
+    "lng": 34.3613633
+  },
+  {
+    "date": "Saturday, May 5",
+    "description": "House of Caiaphas",
+    "lat": 30.6207521,
+    "lng": 34.25807404
+  },
+  {
+    "date": "Saturday, May 5",
+    "description": "Garden of Gethsemane",
+    "lat": 32.64820285,
+    "lng": 34.4820072
+  },
+  {
+    "date": "Saturday, May 5",
+    "description": "Walk to St Anne’s Church, Pool of Bethesda",
+    "lat": 30.30151121,
+    "lng": 34.31682881
+  },
+  {
+    "date": "Saturday, May 5",
+    "description": "Lunch on your own",
+    "lat": 31.23051604,
+    "lng": 34.27992573
+  },
+  {
+    "date": "Saturday, May 5",
+    "description": "Via Dolorosa-Stages of the Cross",
+    "lat": 30.07807106,
+    "lng": 34.16922104
+  },
+  {
+    "date": "Saturday, May 5",
+    "description": "Scourging Floor",
+    "lat": 31.66254391,
+    "lng": 34.0179859
+  },
+  {
+    "date": "Saturday, May 5",
+    "description": "Church of Holy Sepulchre",
+    "lat": 30.17890081,
+    "lng": 34.20593273
+  },
+  {
+    "date": "Saturday, May 5",
+    "description": "Return to hotel",
+    "lat": 30.99450363,
+    "lng": 34.20582595
+  },
+  {
+    "date": "Sunday, May 6",
+    "description": "Ministry Project",
+    "lat": 30.52717775,
+    "lng": 34.10685863
+  },
+  {
+    "date": "Sunday, May 6",
+    "description": "Jewish Market-Machane Yehuda Market",
+    "lat": 30.2665954,
+    "lng": 34.44452649
+  },
+  {
+    "date": "Sunday, May 6",
+    "description": "King of Kings Service–5:00pm",
+    "lat": 30.84394422,
+    "lng": 34.3786572
+  },
+  {
+    "date": "Sunday, May 6",
+    "description": "Prayer Tower",
+    "lat": 31.76200381,
+    "lng": 34.0201586
+  },
+  {
+    "date": "Sunday, May 6",
+    "description": "Ben Yehuda Street",
+    "lat": 32.29526957,
+    "lng": 34.18803082
+  },
+  {
+    "date": "Sunday, May 6",
+    "description": "Return to Hotel",
+    "lat": 30.96917255,
+    "lng": 34.03290641
+  },
+  {
+    "date": "Monday, May 7",
+    "description": "Free Day (many options)",
+    "lat": 31.97464737,
+    "lng": 34.34505937
+  },
+  {
+    "date": "Monday, May 7",
+    "description": "7:00 Farewell Dinner at Notre Dame on top floor (view of city)",
+    "lat": 31.89956216,
+    "lng": 34.25324666
+  },
+  {
+    "date": "Tuesday, May 8",
+    "description": "Bethlehem-Shepherd’s Field, Church of the Nativity",
+    "lat": 30.026504,
+    "lng": 34.04725947
+  },
+  {
+    "date": "Tuesday, May 8",
+    "description": "Communion at Garden Tomb",
+    "lat": 31.40612416,
+    "lng": 34.1295779
+  },
+  {
+    "date": "Tuesday, May 8",
+    "description": "Drive through Elah Valley -David and Goliath",
+    "lat": 31.45009682,
+    "lng": 34.32951375
+  },
+  {
+    "date": "Tuesday, May 8",
+    "description": "Joppa-Dinner at Railway Station",
+    "lat": 31.36549796,
+    "lng": 34.4327273
+  },
+  {
+    "date": "Tuesday, May 8",
+    "description": "Arrive at Ben Gurion Airport",
+    "lat": 31.57522429,
+    "lng": 34.07761264
+  },
+  {
+    "date": "Wednesday, May 9",
+    "description": "Arrive Denver International",
+    "lat": 30.02346027,
+    "lng": 34.41192292
+  }
+]

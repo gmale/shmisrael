@@ -1,14 +1,15 @@
-/*.footer {
-  text-align: center;
+.container {
+  width: 100%;
+  height: 100%;
+  background-color: #f00;
+  text-align: right;
 }
 
-.phenomicReference {
-  font-size: 0.75rem;
-  opacity: 0.6;
-  color: inherit;
-  text-decoration: none;
+.mapWrapper {
+  text-align: right;
 }
 
-.phenomicReferenceName {
-  font-weight: 100;
-}*/
+.mapInfo {
+  width: 38%;
+  height: 100%;
+}
