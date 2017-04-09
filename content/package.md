@@ -9,7 +9,4 @@ cta:
     big: true
 ---
 
-About Larry
-
----
-About Lorrie
+Package

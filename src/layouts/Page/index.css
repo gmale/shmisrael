@@ -47,8 +47,14 @@
   letter-spacing: 1px;
 }
 
+.subheading {
+  margin-top: 0;
+  color: #E8E8E8;
+  font-weight: 100;
+}
+
 .cta {
-  margin-top: 2rem;
+/*  margin-top: 2rem;*/
 }
 
 .pageContent {

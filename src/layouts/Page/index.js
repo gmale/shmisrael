@@ -65,7 +65,11 @@ const Page = (
         >
           <div className={ styles.header }>
             <div className={ styles.wrapper }>
-              <h1 className={ styles.heading }>{ head.title }</h1>
+              <h1 className={ styles.heading }>{ head.herotitle }</h1>
+              {
+                head.herosubtitle &&
+                <h3 className={ styles.subheading }>{ head.herosubtitle }</h3>
+              }
               {
                 head.cta &&
                 <Link to={ head.cta.link }>
