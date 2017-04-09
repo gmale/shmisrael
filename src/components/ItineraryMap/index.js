@@ -1,9 +1,9 @@
 import React from "react"
-import {Gmaps, Marker, InfoWindow, Circle} from 'react-gmaps';
+import {Gmaps, Marker, Circle} from 'react-gmaps';
 import {Flex, Box} from 'reflexbox'
 
 
-import styles from "./index.css"
+// import styles from "./index.css"
 const itinerary = require('./itinerary.json')
 
 const coords = {
@@ -33,7 +33,7 @@ const itineraryList = itinerary.map((item, index) => {
 });
 
 let markerAdded = 0;
-const markerList = itinerary.map((item, index) => {
+const markerList = itinerary.map((item) => {
   let markup = null;
   if(item.date === currentDate) {
     markup = null;
