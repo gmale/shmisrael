@@ -1,9 +1,10 @@
 import React from "react"
+import MainMapPage from './main_map_page.jsx';
 
 // import styles from "./index.css"
 
 const ItineraryMap = () => (
-  <div>Hello Comps!</div>
+  <MainMapPage />
 )
 
 export default ItineraryMap

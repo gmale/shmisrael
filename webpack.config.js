@@ -46,7 +46,7 @@ export default (config = {}) => {
 
         // *.js => babel + eslint
         {
-          test: /\.js$/,
+          test: /\.jsx?$/,
           include: [
             path.resolve(__dirname, "scripts"),
             path.resolve(__dirname, "src"),
@@ -55,6 +55,7 @@ export default (config = {}) => {
             "babel-loader?cacheDirectory",
             "eslint-loader" + (config.dev ? "?emitWarning" : ""),
           ],
+          exclude: /node_modules/
         },
 
         // ! \\
