@@ -127,6 +127,7 @@
     "whatwg-fetch": "^0.11.0"
   },
   "dependencies": {
-    "google-map-react": "^0.23.0"
+    "google-map-react": "^0.23.0",
+    "prop-types": "^15.5.4"
   }
 }
