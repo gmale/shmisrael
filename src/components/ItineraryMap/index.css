@@ -1,15 +1,12 @@
-.container {
-  width: 100%;
-  height: 100%;
-  background-color: #f00;
-  text-align: right;
+.itineraryList {
+  height: 1200px;
+  overflow-y: scroll;
 }
 
-.mapWrapper {
-  text-align: right;
+.itineraryEvenRow {
+background-color: #F0F0F0;
 }
 
-.mapInfo {
-  width: 38%;
-  height: 100%;
+.itineraryOddRow {
+  background-color: #CCCCCC;
 }

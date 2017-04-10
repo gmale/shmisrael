@@ -3,7 +3,7 @@ import {Gmaps, Marker, Circle} from 'react-gmaps';
 import {Flex, Box} from 'reflexbox'
 
 
-// import styles from "./index.css"
+import styles from "./index.css"
 const itinerary = require('./itinerary.json')
 
 const coords = {
@@ -23,7 +23,7 @@ const itineraryList = groupItinerary(itinerary).map((item, index) => {
         );
   });
   return (
-    <div>
+    <div className={index % 2 == 0 ? styles.itineraryEvenRow : styles.itineraryOddRow}>
       <h3>Day {index + 1} : {item.date}</h3>
       <ul>
         <li>
@@ -70,7 +70,9 @@ const createCallback = function(map) {
 const ItineraryMap = () => (
   <Flex>
     <Box col={5} pr={2}>
-        {itineraryList}
+        <div className={styles.itineraryList}>
+          {itineraryList}
+        </div>
     </Box>
     <Box col={7}>
       <Gmaps
