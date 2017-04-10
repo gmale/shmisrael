@@ -82,7 +82,7 @@ const ItineraryMap = () => (
         lng={coords.lng}
         zoom={8}
         mapTypeId={'hybrid'}
-        loadingMessage={'Be happy'}
+        loadingMessage={'Loading Israel itinerary map...'}
         params={params}
         onMapCreated={createCallback}>
         {markerList}
