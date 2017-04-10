@@ -14,22 +14,39 @@ const coords = {
 const params = {v: '3.exp', key: 'AIzaSyAQ38AyTgvhBYPw4rf1ZPcGZxrIpZoQ0sI'};
 
 let currentDate = null;
-const itineraryList = itinerary.map((item, index) => {
-  const isSameDate = item.date === currentDate;
-  currentDate = item.date;
-  let markup = null;
-  if(isSameDate) {
-    markup =
+const itineraryList = groupItinerary(itinerary).map((item, index) => {
+  let activities = item.activities.map((activity) => {
+      return (
+          <li>
+            <a href="#" onClick={() => this.jumpTo(index)}>{activity.description}</a>
+          </li>
+        );
+  });
+  return (
+    <div>
+      <h3>{item.date}</h3>
+      <ul>
         <li>
           <a href="#" onClick={() => this.jumpTo(index)}>{item.description}</a>
-        </li>;
-  } else {
-      markup = <li>
-        <br/><b>{item.date}:</b><br/>
-        <a href="#" onClick={() => this.jumpTo(index)}>{item.description}</a>
-      </li>;
-  }
-  return markup;
+        </li>
+        {activities}</ul>
+    </div>
+  );
+  // const isSameDate = item.date === currentDate;
+  // currentDate = item.date;
+  // let markup = null;
+  // if(isSameDate) {
+  //   markup =
+  //       <li>
+  //         <a href="#" onClick={() => this.jumpTo(index)}>{item.description}</a>
+  //       </li>;
+  // } else {
+  //     markup = <li>
+  //       <br/><b>{item.date}:</b><br/>
+  //       <a href="#" onClick={() => this.jumpTo(index)}>{item.description}</a>
+  //     </li>;
+  // }
+  // return markup;
 });
 
 let markerAdded = 0;
@@ -53,9 +70,7 @@ const createCallback = function(map) {
 const ItineraryMap = () => (
   <Flex>
     <Box col={5} pr={2}>
-      <ul>
         {itineraryList}
-      </ul>
     </Box>
     <Box col={7}>
       <Gmaps
@@ -77,5 +92,27 @@ const ItineraryMap = () => (
     </Box>
   </Flex>
 )
+
+function groupItinerary(intineraryItems) {
+  let groupedItinerary = [];
+  let currentDate = null;
+  let currentGrouping = null;
+  intineraryItems.map((item) => {
+    if(currentDate === item.date) {
+      currentGrouping.activities.push(item);
+    } else {
+      currentGrouping = {
+          date: item.date,
+          description: item.description,
+          lat: item.lat,
+          lng: item.lng,
+          activities: []
+      };
+      groupedItinerary.push(currentGrouping);
+    }
+    currentDate = item.date;
+  });
+  return groupedItinerary;
+}
 
 export default ItineraryMap
