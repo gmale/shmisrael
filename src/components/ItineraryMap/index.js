@@ -24,7 +24,7 @@ const itineraryList = groupItinerary(itinerary).map((item, index) => {
   });
   return (
     <div>
-      <h3>{item.date}</h3>
+      <h3>Day {index + 1} : {item.date}</h3>
       <ul>
         <li>
           <a href="#" onClick={() => this.jumpTo(index)}>{item.description}</a>
@@ -56,7 +56,7 @@ const markerList = itinerary.map((item) => {
     markup = null;
   } else {
     markup = <Marker
-      label={(markerAdded++) + ""}
+      label={(++markerAdded) + ""}
       lat={Math.min(item.lat, 33)}
       lng={Math.min(item.lng + 0.95, 35.4)}/>;
   }
