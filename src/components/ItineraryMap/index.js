@@ -69,7 +69,7 @@ const createCallback = function(map) {
 }
 const ItineraryMap = () => (
   <Flex>
-    <Box col={5} pr={2}>
+    <Box col={5} pr={0}>
         <div className={styles.itineraryList}>
           {itineraryList}
         </div>
